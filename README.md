@@ -7,3 +7,13 @@ Phase 1 — EDA & Feature Engineering
 - Handled class imbalance using SMOTE on training data only
 - Key finding: night-time transactions and amounts 5x+ above 
   card average are the strongest fraud indicators
+
+
+
+  Isolation Forest (Unsupervised Anomaly Detection)
+- Trained on 472K transactions with no fraud labels
+- Contamination tuned to match actual fraud rate (3.5%)
+- AUC: ~0.78 | Catches fraud patterns without supervision
+- Key insight: highest anomaly scores cluster around 
+  night-time transactions with amounts 5x+ above card average
+- Anomaly scores saved for ensemble combination with XGBoost
