@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-**[View the live fraud detection dashboard →](https://fraud-detection-system-xy.streamlit.app)**
+**[View the live fraud detection dashboard →](https://real-time-fraud-detection-system-3cm2aesobqngve365zm5dh.streamlit.app/)**
 
 ---
 
@@ -189,7 +189,7 @@ A fully deployed interactive dashboard with 5 pages:
 - **Fraud Reports** — all LLM-generated fraud alert reports with expandable transaction detail
 - **About** — full project documentation
 
-**[View live dashboard →](https://fraud-detection-system-xy.streamlit.app)**
+**[View live dashboard →](https://real-time-fraud-detection-system-3cm.streamlit.app/)**
 
 ---
 
@@ -267,6 +267,6 @@ streamlit run app/dashboard.py
 
 Built by **Aniket Nerali**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/aniket-nerali)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/Thesineo)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://fraud-detection-system-xy.streamlit.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://real-time-fraud-detection-system-3cm.streamlit.app/)
