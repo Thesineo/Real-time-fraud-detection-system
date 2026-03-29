@@ -1,0 +1,12 @@
+cat > ~/fraud-detection/requirements.txt << 'EOF'
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+xgboost
+lightgbm
+shap
+openai
+python-dotenv
+EOF
