@@ -1,4 +1,5 @@
-cat > ~/fraud-detection/requirements.txt << 'EOF'
+cd ~/fraud-detection
+cat > requirements.txt << 'EOF'
 streamlit
 pandas
 numpy
