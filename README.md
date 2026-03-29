@@ -10,7 +10,7 @@ Phase 1 — EDA & Feature Engineering
 
 
 
-  Phase 2 - Isolation Forest (Unsupervised Anomaly Detection)
+Phase 2 - Isolation Forest (Unsupervised Anomaly Detection)
 - Trained on 472K transactions with no fraud labels
 - Contamination tuned to match actual fraud rate (3.5%)
 - AUC: ~0.78 | Catches fraud patterns without supervision
@@ -28,3 +28,15 @@ Phase 3 — LSTM Sequential Fraud Detection
 - EarlyStopping on validation AUC to prevent overfitting
 - Key advantage: catches sequential fraud patterns 
   (card testing, velocity abuse) that XGBoost misses
+
+
+Phase 4 — LLM Fraud Explanations
+- Computed SHAP values for every flagged transaction using 
+  TreeExplainer — identifies exactly which features drove 
+  each fraud prediction
+- Built a prompt pipeline that translates SHAP values into 
+  plain English fraud alert reports using GPT-3.5
+- Auto-generated analyst-ready reports for top 10 highest 
+  risk transactions
+- Key output: each report explains fraud risk in business 
+  language without any ML jargon
