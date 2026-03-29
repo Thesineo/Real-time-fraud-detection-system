@@ -1,5 +1,3 @@
-cd ~/fraud-detection
-cat > requirements.txt << 'EOF'
 streamlit
 pandas
 numpy
@@ -10,4 +8,3 @@ lightgbm
 shap
 openai
 python-dotenv
-EOF
